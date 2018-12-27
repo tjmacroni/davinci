@@ -1,0 +1,36 @@
+.bg-green{
+    background-color :#2d8c42;  
+}
+.nav-tab{
+    margin-top: 25px;
+}
+.nav-menu{
+    color: #2d8c42;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-menu:hover{
+    color:black;
+    background-color:#e9ecef;
+}
+.tab-head{
+    border-bottom: 4px solid transparent;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    font-weight:bold;
+    color:#fff;
+}
+.panel-head{
+    padding-left:15px;
+}
+.btn-cirlce{
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 1.33;
+}
