@@ -68,6 +68,17 @@
     border-bottom-right-radius: 3px;
     height: 200px;
 }
+.pnr-view{
+    margin-top: 20px;
+    border-color: #908a8a;
+    background-color: #e7e7e7;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 500px;
+    border-style: solid;
+}
 .row-steps{
     font-weight: bold;
 }
