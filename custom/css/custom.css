@@ -52,6 +52,12 @@
     font-weight: bold;
     color: #1077cf;
 }
+.steps-disabled{
+    color:#a59a9a;   
+}
+.dot-disabled{
+    background-color: #e7e7e7;
+}
 .pnr-search{
     margin-top: 20px;
     border-color: #e7e7e7;
