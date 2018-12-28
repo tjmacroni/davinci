@@ -72,3 +72,6 @@
     float: right;
     margin-top: 10px;
 }
+#step-2{
+    display: none;
+}
