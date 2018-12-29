@@ -131,12 +131,12 @@
                             </div>
                             <!--Select Action-->
                             <div class="steps">
-                                    <span class="dot">2</span>
-                                </div> 
-                                <div class="col-md-2 steps">
-                                    <a>Step 2</a><br>
-                                    <a text-align="right">Select Action</a>
-                                </div>
+                                <span class="dot">2</span>
+                            </div> 
+                            <div class="col-md-2 steps">
+                                <a>Step 2</a><br>
+                                <a text-align="right">Select Action</a>
+                            </div>
                         </div>
                         <div class="pnr-view">
                             <!--Nav Tab Vertical-->
@@ -149,33 +149,135 @@
                                 <button class="tablinks" onclick="openMenu(event, 'EMDAssociated')">EMD Associated</button>
                             </div>
                             <div  data-spy="scroll" id="PriceNewGrossFare" class="tabcontent">
-                                <h3>Price New Gross Fare</h3>
-                              </div>
+                                <table class="table table-bordered table-striped" style="margin-top:5px;">
+                                    <thead>
+                                      <tr style="background-color:#eefdee;">
+                                        <th scope="col"><input type="checkbox" aria-label="Checkbox for following text input"></th>
+                                        <th scope="col">No</th>
+                                        <th scope="col">Passenger Name</th>
+                                        <th scope="col">Pax Type</th>
+                                        <th scope="col">Pax Age/ID</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row"><input type="checkbox" aria-label="Checkbox for following text input"></th>
+                                        <td>1</td>
+                                        <td>Ram Chandra Poudel</td>
+                                        <td><div class="col-md-12">
+                                            <select id="gds" class="form-control">
+                                                <option selected>Adult</option>
+                                                <option>Child</option>
+                                                <option>Infant</option>
+                                            </select>
+                                        </div></td>
+                                        <td><div class="col-md-5">
+                                            <input class="form-control" id="ex1" type="text">
+                                          </div></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><input type="checkbox" aria-label="Checkbox for following text input"></th>
+                                        <td>2</td>
+                                        <td>Hari Poudel</td>
+                                        <td><div class="col-md-12">
+                                            <select id="gds" class="form-control">
+                                                <option selected>Adult</option>
+                                                <option>Child</option>
+                                                <option>Infant</option>
+                                            </select>
+                                        </div>
+                                        </td>
+                                        <td><div class="col-md-5">
+                                            <input class="form-control" id="ex1" type="text">
+                                          </div></td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-bordered table-striped" style="margin-top:30px;">
+                                    <thead>
+                                      <tr style="background-color:#eefdee;">
+                                        <th scope="col"><input type="checkbox" aria-label="Checkbox for following text input"></th>
+                                        <th scope="col">No</th>
+                                        <th scope="col">Airline</th>
+                                        <th scope="col">Flight</th>
+                                        <th scope="col">Class</th>
+                                        <th scope="col">Origin</th>
+                                        <th scope="col">Dest.</th>
+                                        <th scope="col">Department</th>
+                                        <th scope="col">Status</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row"><input type="checkbox" aria-label="Checkbox for following text input"></th>
+                                        <td>3</td>
+                                        <td>TG</td>
+                                        <td>472</td>
+                                        <td>V</td>
+                                        <td>SYD</td>
+                                        <td>BKK</td>
+                                        <td>16 Jan 19</td>
+                                        <td>HK2</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><input type="checkbox" aria-label="Checkbox for following text input"></th>
+                                        <td>4</td>
+                                        <td>TG</td>
+                                        <td>319</td>
+                                        <td>V</td>
+                                        <td>BKK</td>
+                                        <td>KTM</td>
+                                        <td>17 Jan 19</td>
+                                        <td>HK2</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><input type="checkbox" aria-label="Checkbox for following text input"></th>
+                                        <td>5</td>
+                                        <td>TG</td>
+                                        <td>320</td>
+                                        <td>K</td>
+                                        <td>KTM</td>
+                                        <td>BKK</td>
+                                        <td>26 Jan 19</td>
+                                        <td>HK2</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><input type="checkbox" aria-label="Checkbox for following text input"></th>
+                                        <td>6</td>
+                                        <td>TG</td>
+                                        <td>475</td>
+                                        <td>K</td>
+                                        <td>BKK</td>
+                                        <td>SYD</td>
+                                        <td>28 Jan 19</td>
+                                        <td>HK2</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                               
-                              <div id="TicketNetFare" class="tabcontent">
+                            <div id="TicketNetFare" class="tabcontent">
                                 <h3>Ticket Net Fare</h3>
-                              </div>
+                            </div>
                               
-                              <div id="SelectStoredFare" class="tabcontent">
+                            <div id="SelectStoredFare" class="tabcontent">
                                 <h3>Select Stored Fare</h3>
-                              </div>
+                            </div>
 
-                              <div id="ReissueReval" class="tabcontent">
+                            <div id="ReissueReval" class="tabcontent">
                                 <h3>Reissue/Reval</h3>
-                              </div>
+                            </div>
 
-                              <div id="InvoluntaryReissue" class="tabcontent">
+                            <div id="InvoluntaryReissue" class="tabcontent">
                                 <h3>Involuntary Reissue</h3>
-                              </div>
+                            </div>
 
-                              <div id="EMDAssociated" class="tabcontent">
+                            <div id="EMDAssociated" class="tabcontent">
                                 <h3>EMD Associated</h3>
-                              </div>
-                              
+                            </div>            
                         </div>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Ticket History</button>
+                        <button type="submit" class="btn btn-primary">Ticket History</button>
+                    </div>   
                 </div>
             </div>
         </div>
