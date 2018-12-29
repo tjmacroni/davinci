@@ -139,37 +139,43 @@
                                 </div>
                         </div>
                         <div class="pnr-view">
-                            <!------ Include the above in your HEAD tag ---------->
-                            
-                        
-                                <div  class="col-sm-6">
-                                    <h3>Left Tabs</h3>
-                                    <hr/>
-                                    <div class="col-xs-3">
-                                        <!-- required for floating -->
-                                        <!-- Nav tabs -->
-                                        <ul class="nav nav-tabs tabs-left">
-                                            <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-                                            <li><a href="#profile" data-toggle="tab">Profile</a></li>
-                                            <li><a href="#messages" data-toggle="tab">Messages</a></li>
-                                            <li><a href="#settings" data-toggle="tab">Settings</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-xs-9">
-                                        <!-- Tab panes -->
-                                        <div class="tab-content">
-                                            <div class="tab-pane active" id="home">Home Tab.</div>
-                                            <div class="tab-pane" id="profile">Profile Tab.</div>
-                                            <div class="tab-pane" id="messages">Messages Tab.</div>
-                                            <div class="tab-pane" id="settings">Settings Tab.</div>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
+                            <!--Nav Tab Vertical-->
+                            <div class="tab">
+                                <button class="tablinks" onclick="openMenu(event, 'PriceNewGrossFare')" id="defaultOpen">Price New Gross Fare</button>
+                                <button class="tablinks" onclick="openMenu(event, 'TicketNetFare')">Ticket Net Fare</button>
+                                <button class="tablinks" onclick="openMenu(event, 'SelectStoredFare')">Select Stored Fare</button>
+                                <button class="tablinks" onclick="openMenu(event, 'ReissueReval')">Reissue/Reval</button>
+                                <button class="tablinks" onclick="openMenu(event, 'InvoluntaryReissue')">Involuntary Reissue</button>
+                                <button class="tablinks" onclick="openMenu(event, 'EMDAssociated')">EMD Associated</button>
                             </div>
-                        <button type="submit" class="btn btn-primary">Ticket History</button>
-                        
+                            <div  data-spy="scroll" id="PriceNewGrossFare" class="tabcontent">
+                                <h3>Price New Gross Fare</h3>
+                              </div>
+                              
+                              <div id="TicketNetFare" class="tabcontent">
+                                <h3>Ticket Net Fare</h3>
+                              </div>
+                              
+                              <div id="SelectStoredFare" class="tabcontent">
+                                <h3>Select Stored Fare</h3>
+                              </div>
+
+                              <div id="ReissueReval" class="tabcontent">
+                                <h3>Reissue/Reval</h3>
+                              </div>
+
+                              <div id="InvoluntaryReissue" class="tabcontent">
+                                <h3>Involuntary Reissue</h3>
+                              </div>
+
+                              <div id="EMDAssociated" class="tabcontent">
+                                <h3>EMD Associated</h3>
+                              </div>
+                              
+                        </div>
+                        </div>
                     </div>
+                    <button type="submit" class="btn btn-primary">Ticket History</button>
                 </div>
             </div>
         </div>
